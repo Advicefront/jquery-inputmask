@@ -1,1 +1,1 @@
-//= require inputmask.phone.codes.
+//= require_directory ./phone.codes
