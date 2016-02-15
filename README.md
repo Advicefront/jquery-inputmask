@@ -1,26 +1,31 @@
 # Jquery::Inputmask::Rails
 
-jquery.inputmask version: <b id="jquery.inputmask-version">3.2.7</b>
+jquery.inputmask version: **3.2.7**
 
 ## Installation
 
 
 Add this to your application Gemfile:
 
-``` ruby
+```
+#!ruby
+
 gem 'jquery-inputmask-rails', '>= 3.2.7', git: 'git@bitbucket.org:advicefront/jquery-inputmask.git'
 ```
 
 And then execute:
 
     $ bundle
-    
+
 
 Add the following to your `app/assets/javascripts/application.js`:
 
-```javascript
+```
+#!javascript
+
 //= require inputmask
 //= require jquery.inputmask
+
 ```
 
 Optional extensions:
