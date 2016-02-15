@@ -1,4 +1,4 @@
-var phoneCodesArray[
+var phoneCodesArray = [
 	{ "mask": "+247-####", "cc": "AC", "cd": "Ascension", "desc_en": "", "name_ru": "Остров Вознесения", "desc_ru": "" },
 	{ "mask": "+376-###-###", "cc": "AD", "cd": "Andorra", "desc_en": "", "name_ru": "Андорра", "desc_ru": "" },
 	{ "mask": "+971-5#-###-####", "cc": "AE", "cd": "United Arab Emirates", "desc_en": "mobile", "name_ru": "Объединенные Арабские Эмираты", "desc_ru": "мобильные" },
