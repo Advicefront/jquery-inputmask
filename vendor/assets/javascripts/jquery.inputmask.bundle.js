@@ -2506,7 +2506,7 @@
 }(jQuery, Inputmask), function($, Inputmask) {
     return Inputmask.extendAliases({
         phone: {
-            url: "phone-codes/phone-codes.js",
+            url: "phone.codes/phone.codes.js",
             countrycode: "",
             phoneCodeCache: {},
             mask: function(opts) {
@@ -2540,7 +2540,7 @@
         },
         phonebe: {
             alias: "phone",
-            url: "phone-codes/phone-be.js",
+            url: "phone.codes/phone.be.js",
             countrycode: "32",
             nojumpsThreshold: 4
         }
