@@ -5,8 +5,8 @@ require "jquery-inputmask-rails/version"
 Gem::Specification.new do |s|
   s.name        = "jquery-inputmask-rails"
   s.version     = Jquery::Inputmask::Rails::VERSION
-  s.authors     = ["Marcos Nogueira"]
-  s.email       = ["marcosnogueiraalves@gmail.com"]
+  s.authors     = ["Advicefront"]
+  s.email       = ["acosta@advicefront.com"]
   s.homepage    = "http://github.com/marcosnogueira/jquery-inputmask-rails"
   s.summary     = %q{Integrate the jQuery InputMask plugin into the Rails asset pipeline}
   s.description = %q{An inputmask helps the user with the input by ensuring a predefined format. This can be usefull for dates, numerics, phone numbers...}
