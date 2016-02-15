@@ -1,1 +1,1 @@
-//= require phone-codes
+//= require inputmask.phone.codes.
