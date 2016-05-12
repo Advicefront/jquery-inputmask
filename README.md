@@ -1,6 +1,6 @@
 # Jquery::Inputmask::Rails
 
-jquery.inputmask version: **3.2.7**
+jquery.inputmask version: **3.3.1**
 
 ## Installation
 
@@ -10,7 +10,7 @@ Add this to your application Gemfile:
 ```
 #!ruby
 
-gem 'jquery-inputmask-rails', '>= 3.2.7', git: 'git@bitbucket.org:advicefront/jquery-inputmask.git'
+gem 'jquery-inputmask-rails', '~> 3.3', git: 'git@bitbucket.org:advicefront/jquery-inputmask.git'
 ```
 
 And then execute:
@@ -37,7 +37,7 @@ Optional extensions:
 //= require inputmask.numeric.extensions
 //= require inputmask.regex.extensions
 ```
-    
+
 ## Plugin Documentation
 
 https://github.com/RobinHerbots/jquery.inputmask
