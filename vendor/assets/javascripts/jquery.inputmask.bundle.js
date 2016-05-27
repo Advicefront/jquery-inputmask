@@ -2470,28 +2470,17 @@
 }(jQuery, Inputmask), function($, Inputmask) {
     return Inputmask.extendAliases({
         phone: {
-            // url: "phone-codes/phone-codes.js",
             countrycode: "",
             phoneCodeCache: {},
             mask: function(opts) {
                 if (void 0 === opts.phoneCodeCache[opts.url]) {
-                    var maskList = [];
-                    opts.definitions["#"] = opts.definitions[9], $.ajax({
-                        url: opts.url,
-                        async: !1,
-                        type: "get",
-                        dataType: "json",
-                        success: function(response) {
-                            maskList = response;
-                        },
-                        error: function(xhr, ajaxOptions, thrownError) {
-                            alert(thrownError + " - " + opts.url);
-                        }
-                    }), opts.phoneCodeCache[opts.url] = maskList.sort(function(a, b) {
-                        return (a.mask || a) < (b.mask || b) ? -1 : 1;
-                    });
+                  var maskList = phoneCodesArray;
+                  opts.definitions["#"] = opts.definitions[9],
+                  opts.phoneCodeCache = maskList.sort(function(a, b) {
+                      return (a.mask || a) < (b.mask || b) ? -1 : 1;
+                  });
                 }
-                return opts.phoneCodeCache[opts.url];
+                return opts.phoneCodeCache;
             },
             keepStatic: !1,
             nojumps: !0,
